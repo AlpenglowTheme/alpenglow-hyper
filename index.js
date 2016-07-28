@@ -16,7 +16,7 @@ exports.decorateConfig = (config) => {
         yellow: '#E8BF6A',
         blue: '#6c99bb',
         magenta: '#90516b',
-        cyan: '#8ddcd8',
+        cyan: '#cc7832',
         white: '#d6d6d6',
         lightBlack: '#797979',
         lightRed: '#c45837',
@@ -24,7 +24,7 @@ exports.decorateConfig = (config) => {
         lightYellow: '#E8BF6A',
         lightBlue: '#6c99bb',
         lightMagenta: '#90516b',
-        lightCyan: '#8ddcd8',
+        lightCyan: '#cc7832',
         lightWhite: '#f7f7f7'
       }
     },
@@ -70,22 +70,22 @@ exports.decorateConfig = (config) => {
         red: '#b05279',
         green: '#b4c973',
         yellow: '#E5B567',
-        blue: '#7eaac7',
+        blue: '#6c99bb',
         magenta: '#9e86c8',
-        cyan: '#8ddcd8',
+        cyan: '#E87D3E',
         white: '#d6d6d6',
-        lightBlack: '#636363',
+        lightBlack: '#797979',
         lightRed: '#b05279',
         lightGreen: '#b4c973',
         lightYellow: '#E5B567',
-        lightBlue: '#7eaac7',
+        lightBlue: '#6c99bb',
         lightMagenta: '#9e86c8',
-        lightCyan: '#8ddcd8',
-        lightWhite: '#F8F8F0'
+        lightCyan: '#E87D3E',
+        lightWhite: '#FFFFFF'
       },
     }
   };
-  
+
   let colorScheme;
   try {
     colorScheme = colorSchemeMap[config.alpenglowOptions.colorScheme];
