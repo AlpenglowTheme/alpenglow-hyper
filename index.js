@@ -83,10 +83,15 @@ exports.decorateConfig = (config) => {
         lightCyan: '#8ddcd8',
         lightWhite: '#F8F8F0'
       },
-
     }
+  };
+  
+  let colorScheme;
+  try {
+    colorScheme = colorSchemeMap[config.alpenglowOptions.colorScheme];
+  } catch (e) {
+    colorScheme = colorSchemeMap.alpenglow;
   }
-  const colorScheme = colorSchemeMap[config.alpenglowOptions.colorScheme] || colorSchemeMap.alpenglow;
 
   return Object.assign({}, config, colorScheme);
 }
