@@ -1,8 +1,8 @@
-# Alpenglow Theme for Hyperterm
+# Alpenglow Theme for Hyper
 
-A port of the [Alpenglow Theme](https://github.com/AlpenglowTheme/alpenglow-theme) for Hyperterm.
+A port of the [Alpenglow Theme](https://github.com/AlpenglowTheme/alpenglow-theme) for [Hyper](https://hyper.is/).
 
-To configure, add the following to your `~/.hyperterm.js` file:
+To configure, add the following to your `~/.hyper.js` file:
 
 ```js
 config: {

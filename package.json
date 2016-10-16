@@ -1,18 +1,21 @@
 {
-  "name": "alpenglow-hyperterm",
+  "name": "alpenglow-hyper",
   "version": "1.1.0",
-  "description": "Alpenglow Theme for Hyperterm",
+  "description": "Alpenglow Theme for Hyper",
   "main": "index.js",
-  "repository": "https://github.com/AlpenglowTheme/alpenglow-hyperterm",
+  "repository": "https://github.com/AlpenglowTheme/alpenglow-hyper",
   "keywords": [
-    "hyperterm",
+    "hyper",
     "alpenglow",
-    "afterglow"
+    "afterglow",
+    "color",
+    "scheme",
+    "theme"
   ],
   "author": "Kai Cataldo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlpenglowTheme/alpenglow-hyperterm/issues"
+    "url": "https://github.com/AlpenglowTheme/alpenglow-hyper/issues"
   },
-  "homepage": "https://github.com/AlpenglowTheme/alpenglow-hyperterm#readme"
+  "homepage": "https://github.com/AlpenglowTheme/alpenglow-hyper#readme"
 }
